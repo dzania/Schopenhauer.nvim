@@ -1,4 +1,4 @@
-# gruber-void-lite.nvim
+# Schopenhauer.nvim
 
 Light Neovim colorscheme.
 
