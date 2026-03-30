@@ -1,1 +1,1 @@
-require("gruber-void-lite").setup()
+require("schopenhauer").setup()

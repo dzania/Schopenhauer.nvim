@@ -9,10 +9,10 @@ function M.setup()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = "gruber-void-lite"
+  vim.g.colors_name = "schopenhauer"
   vim.o.background = "light"
 
-  local c = require("gruber-void-lite.palette").colors
+  local c = require("schopenhauer.palette").colors
 
   local hl = function(group, opts)
     vim.api.nvim_set_hl(0, group, opts)
