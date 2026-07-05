@@ -8,19 +8,11 @@ function M.setup()
 		vim.cmd("syntax reset")
 	end
 
-<<<<<<< Updated upstream:lua/schopenhauer/init.lua
-  vim.o.termguicolors = true
-  vim.g.colors_name = "schopenhauer"
-  vim.o.background = "light"
-
-  local c = require("schopenhauer.palette").colors
-=======
 	vim.o.termguicolors = true
-	vim.g.colors_name = "gruber-void-lite"
+	vim.g.colors_name = "schopenhauer"
 	vim.o.background = "light"
 
-	local c = require("gruber-void-lite.palette").colors
->>>>>>> Stashed changes:lua/gruber-void-lite/init.lua
+	local c = require("schopenhauer.palette").colors
 
 	local hl = function(group, opts)
 		vim.api.nvim_set_hl(0, group, opts)
